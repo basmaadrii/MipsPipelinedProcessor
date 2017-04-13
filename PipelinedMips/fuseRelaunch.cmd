@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/PipelinedMips/testbench_isim_beh.exe" -prj "C:/Xilinx/PipelinedMips/testbench_beh.prj" "work.testbench" 

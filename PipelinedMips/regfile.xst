@@ -1,0 +1,5 @@
+set -tmpdir "C:/Xilinx/PipelinedMips/xst/projnav.tmp"
+set -xsthdpdir "C:/Xilinx/PipelinedMips/xst"
+elaborate
+-ifn regfile.prj
+-ifmt mixed

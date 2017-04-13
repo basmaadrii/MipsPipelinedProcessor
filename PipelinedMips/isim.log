@@ -1,0 +1,81 @@
+ISim log file
+Running: C:\Xilinx\PipelinedMips\testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Xilinx/PipelinedMips/testbench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /testbench/dut/mips1/dp/adder1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /testbench/dut/imem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 60 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 80 ns(2), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 85 ns(1), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 90 ns(1), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 90 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 90 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 90 ns(2), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 90 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 90 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 95 ns(1), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 100 ns(1), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 110 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 110 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 110 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 110 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 110 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 110 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 140 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 140 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 140 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 140 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 150 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 150 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 150 ns(5), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 160 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 170 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 170 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 185 ns(1): Note: Simulation failed 68 0 (/testbench/).
+at 225 ns(1): Note: Simulation failed 84 1 (/testbench/).
+at 700 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 720 ns(2), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 725 ns(1), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 730 ns(1), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 730 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 730 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 730 ns(2), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 730 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 730 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 735 ns(1), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 740 ns(1), Instance /testbench/dut/dmem1/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 750 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 750 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 750 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 750 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 750 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 750 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 780 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 780 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 780 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 780 ns(3), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 790 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 790 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 790 ns(5), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 800 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 810 ns(2), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 810 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 825 ns(1): Note: Simulation failed 68 0 (/testbench/).
+at 865 ns(1): Note: Simulation failed 84 1 (/testbench/).

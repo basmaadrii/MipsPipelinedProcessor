@@ -1,0 +1,64 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Xilinx/PipelinedMips/testbench_isim_beh.exe -prj C:/Xilinx/PipelinedMips/testbench_beh.prj work.testbench 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Xilinx/PipelinedMips/sl2.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/signext.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/regfile.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/mux4.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/mux2.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/maindec.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/floprb.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/flopr.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/equator.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/aludec.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/alu.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/adder.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/datapath.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Xilinx/PipelinedMips/datapath.vhd" Line 86: Actual for formal port enable is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Xilinx/PipelinedMips/datapath.vhd" Line 90: Actual for formal port enable is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Xilinx/PipelinedMips/datapath.vhd" Line 91: Actual for formal port enable is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Xilinx/PipelinedMips/controller.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/mips.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/imem.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/hazardunit.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/dmem.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/top.vhd" into library work
+Parsing VHDL file "C:/Xilinx/PipelinedMips/testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behave of entity maindec [maindec_default]
+Compiling architecture behave of entity aludec [aludec_default]
+Compiling architecture asynchronous of entity floprb [floprb_default]
+Compiling architecture asynchronous of entity flopr [\flopr(3)\]
+Compiling architecture struct of entity controller [controller_default]
+Compiling architecture asynchronous of entity flopr [\flopr(32)\]
+Compiling architecture behave of entity adder [adder_default]
+Compiling architecture behave of entity regfile [regfile_default]
+Compiling architecture behave of entity signext [signext_default]
+Compiling architecture behave of entity sl2 [sl2_default]
+Compiling architecture behave of entity mux2 [\mux2(32)\]
+Compiling architecture behavioral of entity equator [equator_default]
+Compiling architecture asynchronous of entity flopr [\flopr(5)\]
+Compiling architecture behave of entity mux2 [\mux2(5)\]
+Compiling architecture behavioral of entity mux4 [\mux4(32)\]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture struct of entity datapath [datapath_default]
+Compiling architecture struct of entity mips [mips_default]
+Compiling architecture behave of entity imem [imem_default]
+Compiling architecture behave of entity dmem [dmem_default]
+Compiling architecture behavioral of entity hazardunit [hazardunit_default]
+Compiling architecture test of entity top [top_default]
+Compiling architecture test of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 20 sub-compilation(s) to finish...
+Compiled 50 VHDL Units
+Built simulation executable C:/Xilinx/PipelinedMips/testbench_isim_beh.exe
+Fuse Memory Usage: 35008 KB
+Fuse CPU Usage: 3515 ms

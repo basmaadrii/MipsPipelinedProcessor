@@ -1,0 +1,5 @@
+vhdl work "maindec.vhd"
+vhdl work "floprb.vhd"
+vhdl work "flopr.vhd"
+vhdl work "aludec.vhd"
+vhdl work "controller.vhd"

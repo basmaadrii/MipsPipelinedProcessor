@@ -1,0 +1,5 @@
+vhdl work "C:\Xilinx\PipelinedMips\maindec.vhd"
+vhdl work "C:\Xilinx\PipelinedMips\floprb.vhd"
+vhdl work "C:\Xilinx\PipelinedMips\flopr.vhd"
+vhdl work "C:\Xilinx\PipelinedMips\aludec.vhd"
+vhdl work "C:\Xilinx\PipelinedMips\controller.vhd"
